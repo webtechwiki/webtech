@@ -6,32 +6,44 @@
     <meta charset="UTF-8">
     <title>WebStack.cc - 设计师网址导航</title>
     <script>
-    if (navigator.appName == "Netscape") {
-        var language = navigator.language;
-    } else {
-        var language = navigator.browserLanguage;
+        if (navigator.appName == "Netscape") {
+            var language = navigator.language;
+        } else {
+            var language = navigator.browserLanguage;
 
-    }
+        }
 
-    if (language.indexOf("en") > -1) {
-        document.location.href = "en/index.html";
-    } else if (language.indexOf("zh") > -1) {
-        document.location.href = "cn/index.html";
-    } else {
-        document.location.href = "en/index.html";
+        if (language.indexOf("en") > -1) {
+            document.location.href = "en/index.html";
+        } else if (language.indexOf("zh") > -1) {
+            document.location.href = "cn/index.html";
+        } else {
+            document.location.href = "en/index.html";
 
-    }
+        }
     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="viggo" />
     <title>Webtech.wiki - Web技术文档</title>
-    <meta name="keywords" content="web技术, 网页开发, 前端开发, 后端开发, 网站建设, HTML, CSS, JavaScript, 前端框架, 后端框架, 数据库, API, 网站优化, 网络安全, 响应式设计, 用户体验, 编程教程, 技术文档, 开发者资源">
-    <meta name="description" content="Webtech.wiki 是一个专注于Web技术的文档和资源网站，提供全面的网页开发指南，涵盖前端开发、后端开发、数据库管理、API设计、网站优化和网络安全等内容。无论你是初学者还是经验丰富的开发者，都能在这里找到实用的编程教程、技术文档和开发者资源，帮助你构建高效、安全的现代网站。">
+    <meta name="keywords"
+        content="web技术, 网页开发, 前端开发, 后端开发, 网站建设, HTML, CSS, JavaScript, 前端框架, 后端框架, 数据库, API, 网站优化, 网络安全, 响应式设计, 用户体验, 编程教程, 技术文档, 开发者资源">
+    <meta name="description"
+        content="Webtech.wiki 是一个专注于Web技术的文档和资源网站，提供全面的网页开发指南，涵盖前端开发、后端开发、数据库管理、API设计、网站优化和网络安全等内容。无论你是初学者还是经验丰富的开发者，都能在这里找到实用的编程教程、技术文档和开发者资源，帮助你构建高效、安全的现代网站。">
 </head>
 
 <body>
 </body>
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?ccd28fb22938c77d867bdca966b1d348";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
 </html>
